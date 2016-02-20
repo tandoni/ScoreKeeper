@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A74B5A01A39209E000DDDD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A74B59F1A39209E000DDDD7 /* AppDelegate.swift */; };
 		0A74B5A21A39209E000DDDD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A74B5A11A39209E000DDDD7 /* ViewController.swift */; };
 		0A74B5A51A39209E000DDDD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A74B5A31A39209E000DDDD7 /* Main.storyboard */; };
 		0A74B5A71A39209E000DDDD7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A74B5A61A39209E000DDDD7 /* Images.xcassets */; };
 		0A74B5AA1A39209E000DDDD7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A74B5A81A39209E000DDDD7 /* LaunchScreen.xib */; };
 		0A74B5B61A39209E000DDDD7 /* ScoreKeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A74B5B51A39209E000DDDD7 /* ScoreKeeperTests.swift */; };
+		0A74B5C61A394EBE000DDDD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A74B5C51A394EBE000DDDD7 /* AppDelegate.swift */; };
+		85B097A51C78D3FC00A69987 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B097A21C78D3FC00A69987 /* Icon-72.png */; };
+		85B097A61C78D3FC00A69987 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B097A31C78D3FC00A69987 /* Icon.png */; };
+		85B097A71C78D3FC00A69987 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85B097A41C78D3FC00A69987 /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +31,6 @@
 /* Begin PBXFileReference section */
 		0A74B59A1A39209E000DDDD7 /* ScoreKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoreKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A74B59E1A39209E000DDDD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0A74B59F1A39209E000DDDD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A74B5A11A39209E000DDDD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0A74B5A41A39209E000DDDD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A74B5A61A39209E000DDDD7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -36,6 +38,10 @@
 		0A74B5AF1A39209E000DDDD7 /* ScoreKeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoreKeeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A74B5B41A39209E000DDDD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A74B5B51A39209E000DDDD7 /* ScoreKeeperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreKeeperTests.swift; sourceTree = "<group>"; };
+		0A74B5C51A394EBE000DDDD7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85B097A21C78D3FC00A69987 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		85B097A31C78D3FC00A69987 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		85B097A41C78D3FC00A69987 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +83,7 @@
 		0A74B59C1A39209E000DDDD7 /* ScoreKeeper */ = {
 			isa = PBXGroup;
 			children = (
-				0A74B59F1A39209E000DDDD7 /* AppDelegate.swift */,
+				0A74B5C51A394EBE000DDDD7 /* AppDelegate.swift */,
 				0A74B5A11A39209E000DDDD7 /* ViewController.swift */,
 				0A74B5A31A39209E000DDDD7 /* Main.storyboard */,
 				0A74B5A61A39209E000DDDD7 /* Images.xcassets */,
@@ -90,6 +96,9 @@
 		0A74B59D1A39209E000DDDD7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				85B097A21C78D3FC00A69987 /* Icon-72.png */,
+				85B097A31C78D3FC00A69987 /* Icon.png */,
+				85B097A41C78D3FC00A69987 /* Icon@2x.png */,
 				0A74B59E1A39209E000DDDD7 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -156,11 +165,14 @@
 		0A74B5921A39209E000DDDD7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "CSSE Department";
 				TargetAttributes = {
 					0A74B5991A39209E000DDDD7 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 5XB3C38LR9;
 					};
 					0A74B5AE1A39209E000DDDD7 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -193,7 +205,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A74B5A51A39209E000DDDD7 /* Main.storyboard in Resources */,
+				85B097A71C78D3FC00A69987 /* Icon@2x.png in Resources */,
+				85B097A61C78D3FC00A69987 /* Icon.png in Resources */,
 				0A74B5AA1A39209E000DDDD7 /* LaunchScreen.xib in Resources */,
+				85B097A51C78D3FC00A69987 /* Icon-72.png in Resources */,
 				0A74B5A71A39209E000DDDD7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +227,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A74B5C61A394EBE000DDDD7 /* AppDelegate.swift in Sources */,
 				0A74B5A21A39209E000DDDD7 /* ViewController.swift in Sources */,
-				0A74B5A01A39209E000DDDD7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,8 +351,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ScoreKeeper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ishank-Tandon";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -346,8 +363,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ScoreKeeper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ishank-Tandon";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -405,6 +424,7 @@
 				0A74B5BB1A39209E000DDDD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A74B5BC1A39209E000DDDD7 /* Build configuration list for PBXNativeTarget "ScoreKeeperTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +433,7 @@
 				0A74B5BE1A39209E000DDDD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

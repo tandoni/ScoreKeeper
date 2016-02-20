@@ -2,8 +2,8 @@
 //  ScoreKeeperTests.swift
 //  ScoreKeeperTests
 //
-//  Created by CSSE Department on 12/10/14.
-//  Copyright (c) 2014 CSSE Department. All rights reserved.
+//  Created by Ishank Tandon on 12/10/14.
+//  Copyright (c) 2014 Ishank Tandon. All rights reserved.
 //
 
 import UIKit
